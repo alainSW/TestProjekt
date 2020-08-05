@@ -9,6 +9,8 @@
     
   <dependencies>
   
+
+  
   <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
     <groupId>org.testng</groupId>
@@ -192,7 +194,7 @@
 </dependency>
 
 
-
+  
 
     </dependencies>
     
@@ -216,6 +218,13 @@
     				<artifactId>maven-surefire-plugin</artifactId>
     			<version>3.0.0-M5</version>
 			</dependency>
+			  <!-- https://mvnrepository.com/artifact/org.jenkins-ci.plugins/git -->
+			<dependency>
+    			<groupId>org.jenkins-ci.plugins</groupId>
+   				 <artifactId>git</artifactId>
+    		<version>3.6.0</version>
+</dependency>
+  
            </dependencies>
            <configuration>
            	<additionalClasspathElements>
